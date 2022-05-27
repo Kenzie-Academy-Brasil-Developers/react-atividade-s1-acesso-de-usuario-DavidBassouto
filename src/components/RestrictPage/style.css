@@ -1,0 +1,65 @@
+.Log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px green;
+  background-color: black;
+  border-radius: 15px;
+  width: 50%;
+  height: 300px;
+}
+
+.Log p {
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.Log button {
+  padding: 30px;
+  color: green;
+  background-color: black;
+  border: solid 1px green;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Log button:active {
+  color: black;
+  background-color: green;
+}
+
+/*----------------*/
+
+.Unlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  background-color: red;
+  border-radius: 15px;
+  width: 50%;
+  height: 300px;
+}
+
+.Unlog p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.Unlog button {
+  padding: 30px;
+  color: white;
+  background-color: red;
+  border: solid 1px white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.Unlog button:active {
+  color: black;
+  background-color: white;
+}
